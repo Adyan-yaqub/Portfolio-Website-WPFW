@@ -1,9 +1,15 @@
-*{
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
+:root {
+    --tekstkleur: #1a1a1a;
+    --achtergrond: #eff6ff;        
+    --accentkleur: #1d4ed8;
+    --donkerblauw: #1e3a8a;        
+    --wit: #ffffff;
+    --ruimte: 1rem;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 
 #Logo{
@@ -33,7 +39,172 @@ body{
     line-height: 1.6;
     color: #333333;
     margin: 0;
-
+    min-height: 100vh;            
+    display: flex;
+    flex-direction: column;        
+    color: var(--tekstkleur);
+    background-color: var(--achtergrond);
 }
 
+main {
+    flex: 1;                       
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: var(--ruimte);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+a {
+    color: var(--accentkleur);
+}
+
+a:focus-visible {
+    outline: 3px solid var(--accentkleur);
+    outline-offset: 2px;           /* zichtbare focus voor toetsenbordgebruikers */
+}
+
+
+.knop {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    min-height: 44px;              /* groot genoeg om aan te tikken */
+    background-color: var(--accentkleur);
+    color: var(--wit);
+    text-decoration: none;
+    border: 2px solid var(--accentkleur);
+    border-radius: 4px;
+}
+
+.knop-omlijnd {
+    background-color: transparent;
+    color: var(--accentkleur);
+}
+
+
+.hero {
+    padding: 3rem var(--ruimte);
+    text-align: center;
+    color: var(--wit);
+    background-color: var(--donkerblauw);
+    border-radius: 12px;
+}
+
+.hero h1 {
+    margin: 0 0 var(--ruimte);
+    font-size: 2rem;
+}
+
+.hero p {
+    max-width: 36rem;
+    margin: 0 auto var(--ruimte);
+    font-size: 1.125rem;
+}
+
+
+.hero .knop {
+    background-color: var(--wit);
+    color: var(--donkerblauw);
+    border-color: var(--wit);
+}
+
+.hero .knop-omlijnd {
+    background-color: transparent;
+    color: var(--wit);
+}
+
+
+.snelkoppelingen {
+    display: grid;
+    grid-template-columns: 1fr;    /* mobiel: onder elkaar */
+    gap: var(--ruimte);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.snelkoppelingen a {
+    display: block;
+    padding: 1.25rem;
+    min-height: 44px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--donkerblauw);
+    background-color: var(--wit);
+    border: 2px solid var(--donkerblauw);
+    border-radius: 8px;
+}
+
+.snelkoppelingen a:hover {
+    background-color: var(--donkerblauw);
+    color: var(--wit);
+}
+
+
+.voettekst {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--ruimte);
+    padding: var(--ruimte) 2rem;
+    background-color: var(--tekstkleur);
+    color: var(--wit);
+}
+
+.voettekst p {
+    margin: 0;
+}
+
+.voettekst a {
+    color: var(--wit);
+}
+
+.voettekst-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--ruimte);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 5rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .snelkoppelingen {
+        grid-template-columns: repeat(3, 1fr);   
+    }
+}
+
+
+@media (min-width: 1024px) {
+    main {
+        padding: 2rem;
+    }
+
+    .hero {
+        padding: 7rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+}
 
