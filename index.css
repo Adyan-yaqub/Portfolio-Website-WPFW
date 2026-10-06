@@ -1,8 +1,8 @@
 :root {
     --tekstkleur: #1a1a1a;
-    --achtergrond: #eff6ff;        
+    --achtergrond: #eff6ff;
     --accentkleur: #1d4ed8;
-    --donkerblauw: #1e3a8a;        
+    --donkerblauw: #1e3a8a;
     --wit: #ffffff;
     --ruimte: 1rem;
 }
@@ -11,17 +11,27 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--tekstkleur);
+    background-color: var(--achtergrond);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-#Logo{
+#Logo {
     width: 175px;
     height: 175px;
 }
 
 header {
-    display: flex;                   
-    justify-content: space-between;  
-    align-items: center;             
-    flex-wrap: wrap;                 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem 2rem;
 }
@@ -29,25 +39,30 @@ header {
 .Navigatie {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 1.3rem;
-    margin-top: -45px;                  
+    gap: 0.7rem;
+    margin-top: -45px;
 }
 
+.Navigatie a {
+    padding: 0.6rem 1rem;
+    background-color: var(--donkerblauw);
+    color: var(--wit);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
 
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333333;
-    margin: 0;
-    min-height: 100vh;            
-    display: flex;
-    flex-direction: column;        
-    color: var(--tekstkleur);
-    background-color: var(--achtergrond);
+.Navigatie a:hover {
+    background-color: var(--accentkleur);
+}
+
+.Navigatie a:focus-visible {
+    outline: 3px solid var(--accentkleur);
+    outline-offset: 2px;
 }
 
 main {
-    flex: 1;                       
+    flex: 1;
     width: 100%;
     max-width: 70rem;
     margin: 0 auto;
@@ -62,33 +77,6 @@ img {
 section {
     margin-bottom: 3rem;
 }
-
-a {
-    color: var(--accentkleur);
-}
-
-a:focus-visible {
-    outline: 3px solid var(--accentkleur);
-    outline-offset: 2px;           /* zichtbare focus voor toetsenbordgebruikers */
-}
-
-
-.knop {
-    display: inline-block;
-    padding: 0.75rem 1.25rem;
-    min-height: 44px;              /* groot genoeg om aan te tikken */
-    background-color: var(--accentkleur);
-    color: var(--wit);
-    text-decoration: none;
-    border: 2px solid var(--accentkleur);
-    border-radius: 4px;
-}
-
-.knop-omlijnd {
-    background-color: transparent;
-    color: var(--accentkleur);
-}
-
 
 .hero {
     padding: 3rem var(--ruimte);
@@ -106,49 +94,35 @@ a:focus-visible {
 .hero p {
     max-width: 36rem;
     margin: 0 auto var(--ruimte);
-    font-size: 1.125rem;
+    font-size: 1.1rem;
 }
 
-
-.hero .knop {
+.knop {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    margin: 0.25rem;
+    min-height: 44px;
     background-color: var(--wit);
     color: var(--donkerblauw);
-    border-color: var(--wit);
+    text-decoration: none;
+    border: 2px solid var(--wit);
+    border-radius: 6px;
+    font-weight: 600;
 }
 
-.hero .knop-omlijnd {
+.knop-omlijnd {
     background-color: transparent;
     color: var(--wit);
 }
 
-
-.snelkoppelingen {
-    display: grid;
-    grid-template-columns: 1fr;    /* mobiel: onder elkaar */
-    gap: var(--ruimte);
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.knop:hover {
+    background-color: #dbeafe;
 }
 
-.snelkoppelingen a {
-    display: block;
-    padding: 1.25rem;
-    min-height: 44px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
+#titel-ontdek {
     color: var(--donkerblauw);
-    background-color: var(--wit);
-    border: 2px solid var(--donkerblauw);
-    border-radius: 8px;
+    margin-bottom: 0.5rem;
 }
-
-.snelkoppelingen a:hover {
-    background-color: var(--donkerblauw);
-    color: var(--wit);
-}
-
 
 .voettekst {
     display: flex;
@@ -178,6 +152,20 @@ a:focus-visible {
     padding: 0;
 }
 
+@media (max-width: 767px) {
+    header {
+        justify-content: center;
+    }
+
+    .Navigatie {
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+}
 
 @media (min-width: 768px) {
     .hero {
@@ -187,12 +175,7 @@ a:focus-visible {
     .hero h1 {
         font-size: 3rem;
     }
-
-    .snelkoppelingen {
-        grid-template-columns: repeat(3, 1fr);   
-    }
 }
-
 
 @media (min-width: 1024px) {
     main {
@@ -207,4 +190,3 @@ a:focus-visible {
         font-size: 3.5rem;
     }
 }
-

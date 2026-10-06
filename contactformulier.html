@@ -4,31 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactformulier</title>
-    <link rel="stylesheet" href="/contactformulier.css">
+    <title>Contactformulier </title>
+    <link rel="stylesheet" href="contactformulier.css">
 </head>
 
 <body>
+
     <header>
         <img id="Logo" src="logo.png" alt="Logo">
+
         <nav class="Navigatie">
-
-            <a id="Home" href="/index.html">Startpagina</a>
-            <a id="Overmij" href="/Whoami.html">WhoamI</a>
-            <a id="Projecten" href="/projecten.html">Projecten</a>
-            <a id="Blog" href="/blog.html">Blog</a>
-            <a id="Contact" href="/contactformulier.html">Contactformulier</a>
-
+            <a href="index.html">Startpagina</a>
+            <a href="whoami.html">Whoami</a>
+            <a href="projecten.html">Projecten</a>
+            <a href="blog.html">Blog</a>
+            <a href="contactformulier.html">Contactformulier</a>
         </nav>
-
-
     </header>
 
+    <main>
+
+        <section class="intro">
+            <h1>Contact</h1>
+
+            <p>
+                Heb je een vraag of wil je contact opnemen?
+                Vul dan het formulier hieronder in.
+            </p>
+        </section>
+
+        <section class="formulier">
+
+            <form>
+                <label for="naam">Naam</label>
+                <input type="text" id="naam" name="naam" required>
+
+                <label for="email">E-mailadres</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="onderwerp">Onderwerp</label>
+                <input type="text" id="onderwerp" name="onderwerp">
+
+                <label for="bericht">Bericht</label>
+                <textarea id="bericht" name="bericht" rows="6"></textarea>
+
+                <button type="submit">Versturen</button>
+            </form>
+
+        </section>
+
+    </main>
 
 
 
+    <footer class="voettekst">
+        <p>
+            &copy; 2026 Adyan Yaqub · Software Engineering Student
+            aan De Haagse Hogeschool
+        </p>
 
-
+        <nav aria-label="Contactlinks">
+            <ul class="voettekst-links">
+                <li><a href="mailto:yaqubadyan@gmail.com">E-mail</a></li>
+                <li>
+                    <a href="https://nl.linkedin.com/in/adyan-yaqub-0ba299218">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/adyan-yaqub">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
 </body>
 

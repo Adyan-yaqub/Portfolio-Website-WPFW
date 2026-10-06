@@ -1,21 +1,39 @@
-*{
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
+:root {
+    --tekstkleur: #1a1a1a;
+    --achtergrond: #eff6ff;
+    --accentkleur: #1d4ed8;
+    --donkerblauw: #1e3a8a;
+    --wit: #ffffff;
+    --ruimte: 1rem;
+
 }
 
 
+* {
+    box-sizing: border-box;
+}
 
-#Logo{
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    color: var(--tekstkleur);
+    background: var(--achtergrond);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#Logo {
     width: 175px;
     height: 175px;
 }
 
 header {
-    display: flex;                   
-    justify-content: space-between;  
-    align-items: center;             
-    flex-wrap: wrap;                 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem 2rem;
 }
@@ -23,17 +41,55 @@ header {
 .Navigatie {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 1.3rem;
-    margin-top: -45px;                  
+    gap: 0.7rem;
+    margin-top: -45px;
 }
 
+.Navigatie a {
+    padding: 0.6rem 1rem;
+    background-color: var(--donkerblauw);
+    color: var(--wit);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
 
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333333;
+.Navigatie a:hover {
+    background-color: var(--accentkleur);
+}
+
+.Navigatie a:focus-visible {
+    outline: 3px solid var(--accentkleur);
+    outline-offset: 2px;
+}
+.voettekst {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--ruimte);
+    padding: var(--ruimte) 2rem;
+    background-color: var(--tekstkleur);
+    color: var(--wit);
+}
+
+.voettekst p {
     margin: 0;
-
 }
+
+.voettekst a {
+    color: var(--wit);
+}
+
+.voettekst-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--ruimte);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
