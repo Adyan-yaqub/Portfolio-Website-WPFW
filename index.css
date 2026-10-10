@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-#Logo { width: 175px; height: 175px; }
+#Logo { width: 175px; height: 175px; border-radius: 50px; }
 
 header {
     display: flex;
