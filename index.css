@@ -1,31 +1,15 @@
-:root {
-    --tekstkleur: #1a1a1a;
-    --achtergrond: #eff6ff;
-    --accentkleur: #1d4ed8;
-    --donkerblauw: #1e3a8a;
-    --wit: #ffffff;
-    --ruimte: 1rem;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     line-height: 1.6;
-    color: var(--tekstkleur);
-    background-color: var(--achtergrond);
+    color: #1a1a1a;
+    background-color: #eff6ff;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-#Logo {
-    width: 175px;
-    height: 175px;
-}
+#Logo { width: 175px; height: 175px; }
 
 header {
     display: flex;
@@ -36,28 +20,28 @@ header {
     padding: 1rem 2rem;
 }
 
-.Navigatie {
-    display: flex;
+.Navigatie { 
+    display: flex; 
     flex-wrap: wrap;
-    gap: 0.7rem;
-    margin-top: -45px;
+     gap: 0.7rem; 
 }
 
-.Navigatie a {
-    padding: 0.6rem 1rem;
-    background-color: var(--donkerblauw);
-    color: var(--wit);
+.Navigatie a, .knop {
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
 }
 
-.Navigatie a:hover {
-    background-color: var(--accentkleur);
+.Navigatie a {
+    padding: 0.6rem 1rem;
+    background-color: #1e3a8a;
+    color: #ffffff;
 }
 
-.Navigatie a:focus-visible {
-    outline: 3px solid var(--accentkleur);
+.Navigatie a:hover { background-color: #1d4ed8; }
+
+.Navigatie a:focus-visible, .knop:focus-visible {
+    outline: 3px solid #1d4ed8;
     outline-offset: 2px;
 }
 
@@ -66,127 +50,71 @@ main {
     width: 100%;
     max-width: 70rem;
     margin: 0 auto;
-    padding: var(--ruimte);
+    padding: 1rem;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+img { max-width: 100%; height: auto; }
+section { margin-bottom: 3rem; }
 
-section {
-    margin-bottom: 3rem;
-}
-
-.hero {
-    padding: 3rem var(--ruimte);
+.intro {
+    padding: 5rem 2rem;
     text-align: center;
-    color: var(--wit);
-    background-color: var(--donkerblauw);
+    color: #ffffff;
+    background-color: #1e3a8a;
     border-radius: 12px;
 }
 
-.hero h1 {
-    margin: 0 0 var(--ruimte);
-    font-size: 2rem;
-}
-
-.hero p {
-    max-width: 36rem;
-    margin: 0 auto var(--ruimte);
-    font-size: 1.1rem;
-}
+.intro h1 { margin: 0 0 1rem; font-size: 3rem; }
+.intro p { max-width: 36rem; margin: 0 auto 1rem; font-size: 1.1rem; }
 
 .knop {
     display: inline-block;
     padding: 0.75rem 1.25rem;
     margin: 0.25rem;
     min-height: 44px;
-    background-color: var(--wit);
-    color: var(--donkerblauw);
-    text-decoration: none;
-    border: 2px solid var(--wit);
-    border-radius: 6px;
-    font-weight: 600;
+    background-color: #ffffff;
+    color: #1e3a8a;
+    border: 2px solid #ffffff;
 }
 
-.knop-omlijnd {
-    background-color: transparent;
-    color: var(--wit);
-}
+.knop-omlijnd { background-color: transparent; color: #ffffff; }
+.knop:hover { background-color: #dbeafe; }
+.knop-omlijnd:hover { color: #1e3a8a; }
 
-.knop:hover {
-    background-color: #dbeafe;
-}
-
-#titel-ontdek {
-    color: var(--donkerblauw);
-    margin-bottom: 0.5rem;
-}
+#titel-ontdek { color: #1e3a8a; margin-bottom: 0.5rem; }
 
 .voettekst {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: var(--ruimte);
-    padding: var(--ruimte) 2rem;
-    background-color: var(--tekstkleur);
-    color: var(--wit);
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
-.voettekst p {
-    margin: 0;
-}
-
-.voettekst a {
-    color: var(--wit);
-}
+.voettekst p { margin: 0; }
+.voettekst a { color: #ffffff; }
 
 .voettekst-links {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--ruimte);
+    gap: 1rem;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 767px) {
-    header {
-        justify-content: center;
-    }
-
-    .Navigatie {
-        justify-content: center;
-        margin-top: 0;
-    }
-
-    .hero {
-        padding: 3rem 1rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .hero {
-        padding: 5rem 2rem;
-    }
-
-    .hero h1 {
-        font-size: 3rem;
-    }
+@media (max-width: 480px) {
+    header, .Navigatie, .voettekst { justify-content: center; text-align: center; }
+    header, .voettekst { padding: 1rem; }
+    .intro { padding: 3rem 1rem; }
+    .intro h1 { font-size: 2rem; }
 }
 
 @media (min-width: 1024px) {
-    main {
-        padding: 2rem;
-    }
-
-    .hero {
-        padding: 7rem 2rem;
-    }
-
-    .hero h1 {
-        font-size: 3.5rem;
-    }
+    main { padding: 2rem; }
+    .intro { padding: 7rem 2rem; }
+    .intro h1 { font-size: 3.5rem; }
 }

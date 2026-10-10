@@ -11,9 +11,9 @@
 <body>
 
     <header>
-        <img id="Logo" src="logo.png" alt="Logo">
+        <img id="Logo" src="logo.png" alt="pagina logo">
 
-        <nav class="Navigatie">
+        <nav class="Navigatie" aria-label="Hoofdnavigatie">
             <a href="index.html">Startpagina</a>
             <a href="whoami.html">Whoami</a>
             <a href="projecten.html">Projecten</a>
@@ -23,60 +23,53 @@
     </header>
 
     <main>
-
         <section class="intro">
             <h1>Mijn projecten</h1>
-
             <p>
-                Op deze pagina zijn mijn projecten te zien waar ik tijdens
-                mijn opleiding, stage en/of in mijn vrije tijd aan werk of heb gemaakt.
+                Hier vind je projecten waaraan ik tijdens mijn opleiding
+                of in mijn vrije tijd werk.
             </p>
         </section>
 
-        <section class="projecten">
+        <section class="projecten" aria-labelledby="projecten-titel">
+            <h2 id="projecten-titel">Overzicht van mijn projecten</h2>
 
-            <div class="project">
-                <h2>Portfolio Website</h2>
-
+            <article class="project">
+                <h3>Portfolio website</h3>
                 <p>
-                    Een persoonlijke portfolio website voor het vak WPFW(Website Programming and Frameworks) waarin ik
-                    mijn vaardigheden en skills in zowel het frontend (HTML,CSS, JavaScript/TypeScript) als het backend(C#, databases. ASP.NET Core) laat zien.
+                    Een persoonlijke portfolio website voor het vak WPFW.
+                    Ik gebruik HTML en CSS voor de pagina's en leer hoe ik
+                    de website later kan uitbreiden met JavaScript en een backend.
                 </p>
-
-                <p><strong>Technieken:</strong> HTML, CSS, JavaScript/TypeScript, C#, ASP.NET Core</p>
-            </div>
-
-            
+                <p>
+                    <strong>Technieken:</strong> HTML en CSS.
+                </p>
+            </article>
         </section>
-
     </main>
 
     <footer class="voettekst">
         <p>
-            &copy; 2026 Adyan Yaqub · Software Engineering Student
+            &copy; 2026 Adyan Yaqub · Software Engineering student
             aan De Haagse Hogeschool
         </p>
 
-        <nav aria-label="Contactlinks">
+        <nav aria-label="Contact en sociale media">
             <ul class="voettekst-links">
-                <li>
-                    <a href="mailto:yaqubadyan@gmail.com">E-mail</a>
-                </li>
-
+                <li><a href="mailto:yaqubadyan@gmail.com">E-mail</a></li>
                 <li>
                     <a href="https://nl.linkedin.com/in/adyan-yaqub-0ba299218">
                         LinkedIn
                     </a>
                 </li>
-
                 <li>
-                    <a href="https://github.com/adyan-yaqub">
-                        GitHub
-                    </a>
+                    <a href="https://github.com/adyan-yaqub">GitHub</a>
                 </li>
             </ul>
         </nav>
     </footer>
-</body>
 
+         <script src="projecten.js"></script>
+
+</body>
 </html>

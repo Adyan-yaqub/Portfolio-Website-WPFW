@@ -1,13 +1,3 @@
-:root {
-    --tekstkleur: #1a1a1a;
-    --achtergrond: #eff6ff;
-    --accentkleur: #1d4ed8;
-    --donkerblauw: #1e3a8a;
-    --wit: #ffffff;
-    --ruimte: 1rem;
-
-}
-
 * {
     box-sizing: border-box;
 }
@@ -15,8 +5,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     line-height: 1.6;
-    color: var(--tekstkleur);
-    background: var(--achtergrond);
+    color: #1a1a1a;
+    background-color: #eff6ff;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -41,57 +31,58 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 0.7rem;
-    margin-top: -45px;
 }
 
 .Navigatie a {
     padding: 0.6rem 1rem;
-    background-color: var(--donkerblauw);
-    color: var(--wit);
+    background-color: #1e3a8a;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
 }
 
 .Navigatie a:hover {
-    background-color: var(--accentkleur);
+    background-color: #1d4ed8;
 }
 
-.Navigatie a:focus-visible {
-    outline: 3px solid var(--accentkleur);
-    outline-offset: 2px;
+.Navigatie a:focus-visible,
+.voettekst a:focus-visible {
+    outline: 3px solid #1d4ed8;
+    outline-offset: 3px;
 }
 
 main {
     flex: 1;
-    max-width: 70rem;
     width: 100%;
-    margin: auto;
+    max-width: 70rem;
+    margin: 0 auto;
     padding: 2rem;
 }
 
 .intro {
-    background: var(--donkerblauw);
-    color: var(--wit);
+    background-color: #1e3a8a;
+    color: #ffffff;
     text-align: center;
     padding: 3rem 1rem;
     border-radius: 12px;
 }
 
 .projecten {
-    display: grid;
-    gap: 1.5rem;
     margin-top: 2rem;
 }
 
 .project {
-    background: var(--wit);
+    background-color: #ffffff;
     padding: 1.5rem;
+    margin-top: 1rem;
     border-radius: 8px;
+    overflow-wrap: anywhere;
 }
 
-.project h2 {
-    color: var(--donkerblauw);
+h2,
+.project h3 {
+    color: #1e3a8a;
 }
 
 .voettekst {
@@ -99,10 +90,10 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: var(--ruimte);
-    padding: var(--ruimte) 2rem;
-    background-color: var(--tekstkleur);
-    color: var(--wit);
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 .voettekst p {
@@ -110,34 +101,38 @@ main {
 }
 
 .voettekst a {
-    color: var(--wit);
+    color: #ffffff;
 }
 
 .voettekst-links {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--ruimte);
+    gap: 1rem;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-@media (min-width: 768px) {
-    .projecten {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    header {
+@media (max-width: 480px) {
+    header,
+    .Navigatie,
+    .voettekst {
         justify-content: center;
+        text-align: center;
     }
 
-    .Navigatie {
-        justify-content: center;
+    header,
+    .voettekst {
+        padding: 1rem;
     }
 
     main {
         padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 2rem;
     }
 }

@@ -11,9 +11,9 @@
 <body>
 
     <header>
-        <img id="Logo" src="logo.png" alt="Logo">
+        <img id="Logo" src="logo.png" alt="pagina logo">
 
-        <nav class="Navigatie">
+        <nav class="Navigatie" aria-label="Hoofdnavigatie">
             <a href="index.html">Startpagina</a>
             <a href="whoami.html">Whoami</a>
             <a href="projecten.html">Projecten</a>
@@ -23,55 +23,40 @@
     </header>
 
     <main>
-
         <section class="intro">
             <h1>Mijn blog</h1>
-
             <p>
                 Hier schrijf ik over mijn ontwikkeling en wat
                 ik tijdens mijn opleiding leer.
             </p>
         </section>
 
-        <section class="artikelen">
+        <section class="artikelen" aria-labelledby="blog-titel">
+            <h2 id="blog-titel">Mijn blogberichten</h2>
 
-            <div class="artikel">
-                <h2>Mijn start met semester Webprogramming, Frameworks & Usability van Software Engineering</h2>
+            <article class="artikel">
+                <h3>Mijn start met WPFW</h3>
 
-                <p class="datum">5 oktober 2026</p>
+                <p class="datum">
+                    <time datetime="2026-10-05">5 oktober 2026</time>
+                </p>
 
                 <p>
                     In deze blog schrijf ik over mijn start met
                     Software Engineering en wat ik tot nu toe
                     heb geleerd.
                 </p>
-            </div>
-
-            <div class="artikel">
-                <h2>Hier komt nog informatie</h2>
-
-                
-
-               
-            </div>
-
-            <div class="artikel">
-                <h2>Hier komt nog informatie</h2>
-
-              
-            </div>
-
+            </article>
         </section>
-
     </main>
 
     <footer class="voettekst">
         <p>
-            &copy; 2026 Adyan Yaqub · Software Engineering Student
+            &copy; 2026 Adyan Yaqub · Software Engineering student
             aan De Haagse Hogeschool
         </p>
 
-        <nav aria-label="Contactlinks">
+        <nav aria-label="Contact en sociale media">
             <ul class="voettekst-links">
                 <li><a href="mailto:yaqubadyan@gmail.com">E-mail</a></li>
                 <li>
@@ -80,14 +65,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/adyan-yaqub">
-                        GitHub
-                    </a>
+                    <a href="https://github.com/adyan-yaqub">GitHub</a>
                 </li>
             </ul>
         </nav>
     </footer>
 
+    <script src="blog.js"></script>
 </body>
 
 </html>

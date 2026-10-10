@@ -11,9 +11,9 @@
 <body>
 
     <header>
-        <img id="Logo" src="logo.png" alt="Logo">
+        <img id="Logo" src="logo.png" alt="pagina logo">
 
-        <nav class="Navigatie">
+        <nav class="Navigatie" aria-label="Hoofdnavigatie">
             <a href="index.html">Startpagina</a>
             <a href="whoami.html">Whoami</a>
             <a href="projecten.html">Projecten</a>
@@ -24,55 +24,38 @@
 
     <main>
 
-        <section class="hero">
-            <h1>Welkom. Ik ben Adyan Yaqub.</h1>
+        <section class="intro" aria-labelledby="welkom-titel">
+            <h1 id="welkom-titel">Welkom, ik ben Adyan Yaqub.</h1>
 
             <p>
-                Momenteel student Software Engineering aan
-                De Haagse Hogeschool. Dit is mijn portfolio website met
-                mijn projecten, blog en meer over mij.
+                Ik ben student Software Engineering aan
+                De Haagse Hogeschool. Op mijn portfolio vind je
+                mijn projecten, blog en informatie over mij.
             </p>
 
-            <p>
-                <a class="knop" href="projecten.html">
-                    Bekijk mijn projecten
-                </a>
-
-                <a class="knop over mijzelf" href="whoami.html">
-                    Over mij
-                </a>
-            </p>
+            
         </section>
 
-        <section aria-labelledby="titel-ontdek">
-            <h2 id="titel-ontdek">Ontdek de site</h2>
-
-            <p>
-                Op deze site is onder meer mijn projecten,
-                blog en informatie over mijzelf te vinden.
-            </p>
-        </section>
+    
 
     </main>
 
     <footer class="voettekst">
         <p>
-            &copy; 2026 Adyan Yaqub · Software Engineering Student
+            &copy; 2026 Adyan Yaqub · Software Engineering student
             aan De Haagse Hogeschool
         </p>
 
-        <nav aria-label="Contactlinks">
+        <nav aria-label="Contact en sociale media">
             <ul class="voettekst-links">
                 <li>
                     <a href="mailto:yaqubadyan@gmail.com">E-mail</a>
                 </li>
-
                 <li>
                     <a href="https://nl.linkedin.com/in/adyan-yaqub-0ba299218">
                         LinkedIn
                     </a>
                 </li>
-
                 <li>
                     <a href="https://github.com/adyan-yaqub">
                         GitHub
@@ -82,6 +65,7 @@
         </nav>
     </footer>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
