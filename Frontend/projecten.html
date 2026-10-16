@@ -26,24 +26,39 @@
 
     <main>
 
-    <div class="project-container">
-  <div class="project-box">
-    <h3>Project 1</h3>
-    <p>Korte toelichting over je eerste project.</p>
-  </div>
-  <div class="project-box">
-    <h3>Project 2</h3>
-    <p>Korte toelichting over je tweede project.</p>
-  </div>
-  <div class="project-box">
-    <h3>Project 3</h3>
-    <p>Korte toelichting over je derde project.</p>
-  </div>
-  <div class="project-box">
-    <h3>Project 4</h3>
-    <p>Korte toelichting over je vierde project.</p>
-  </div>
-</div>
+
+        <!-- Deze knoppen laten de bezoeker projecten filteren
+             of de volgorde van de projecten veranderen.
+             JavaScript bepaalt wat er gebeurt wanneer erop wordt geklikt. -->
+        <div class="filter-knoppen">
+
+            <!-- Toont alle projecten wanneer de bezoeker hierop klikt. -->
+            <button type="button" id="knop-alle">Alle projecten</button>
+
+            <!-- Toont alleen schoolprojecten wanneer hierop wordt geklikt. -->
+            <button type="button" id="knop-school">Schoolproject</button>
+
+            <!-- Toont alleen vrijetijdprojecten wanneer hierop wordt geklikt. -->
+            <button type="button" id="knop-vrijetijd">Vrijetijdproject</button>
+
+            <!-- Zet de projecten op alfabetische volgorde van hun titel. -->
+            <button type="button" id="knop-sorteer">Sorteer op titel</button>
+        </div>
+
+        <!-- JavaScript kan hier een statusmelding tonen,
+             bijvoorbeeld hoeveel projecten worden weergegeven. -->
+        <p id="status"></p>
+
+        <!-- JavaScript plaatst de projectkaarten in deze lege container.
+             Het id maakt het mogelijk om deze plek vanuit JavaScript te vinden.
+             De class kan worden gebruikt om de projecten met CSS vorm te geven. -->
+        <div class="project-container" id="project-container"></div>
+
+
+
+
+
+
 
 
     </main>
