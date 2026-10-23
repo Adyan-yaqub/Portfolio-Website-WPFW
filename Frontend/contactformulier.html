@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactformulier </title>
+    <title>Contactformulier</title>
     <link rel="stylesheet" href="contactformulier.css">
 </head>
 
@@ -14,6 +14,7 @@
         <a href="../index.html">
             <img id="Logo" src="logo.png" alt="pagina logo">
         </a>
+
         <nav class="Navigatie" aria-label="Hoofdnavigatie">
             <a href="../index.html">Startpagina</a>
             <a href="whoami.html">Whoami</a>
@@ -34,21 +35,37 @@
 
         <section class="formulier" aria-labelledby="formulier-titel">
             <h2 id="formulier-titel">Stuur een bericht</h2>
+            <h5>Velden met een * zijn verplicht</h5>
 
-            <form>
-                <label for="naam">Naam</label>
-                <input type="text" id="naam" name="naam" required>
+            <form class="formulier" id="contactformulier" novalidate>
 
-                <label for="email">E-mailadres</label>
-                <input type="email" id="email" name="email" required>
+                <div class="formulier-controle">
+                    <label for="naam">Naam*</label>
+                    <input type="text" id="naam" name="naam" placeholder="Jan" required aria-describedby="naam-fout"
+                        aria-invalid="false">
+                    <small id="naam-fout" role="alert"></small>
+                </div>
+
+                <div class="formulier-controle">
+                    <label for="email">E-mailadres*</label>
+                    <input type="email" id="email" name="email" placeholder="jan@example.com" required
+                        aria-describedby="email-fout" aria-invalid="false">
+                    <small id="email-fout" role="alert"></small>
+                </div>
 
                 <label for="onderwerp">Onderwerp</label>
-                <input type="text" id="onderwerp" name="onderwerp">
+                <input type="text" id="onderwerp" name="onderwerp" placeholder="Waar gaat je vraag over?">
 
-                <label for="bericht">Bericht</label>
-                <textarea id="bericht" name="bericht" rows="6" required></textarea>
+                <div class="formulier-controle">
+                    <label for="bericht">Bericht*</label>
+                    <textarea id="bericht" name="bericht" placeholder="Typ hier je bericht..." required minlength="10"
+                        aria-describedby="bericht-fout" aria-invalid="false"></textarea>
+                    <small id="bericht-fout" role="alert"></small>
+                </div>
 
                 <button type="submit">Versturen</button>
+                <p id="formulier-status" role="status" aria-live="polite"></p>
+
             </form>
         </section>
     </main>
@@ -73,7 +90,6 @@
             </ul>
         </nav>
     </footer>
-
 
     <script src="contactformulier.js"></script>
 

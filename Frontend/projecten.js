@@ -2,8 +2,9 @@
 /*
   1. PROJECTGEGEVENS
 
-  Deze array bevat de projecten die ik op mijn website wil tonen.
-  Elk project is een object met een titel, beschrijving en categorie.
+  In deze array staan mijn echte projecten.
+  Elk project heeft een titel, beschrijving en categorie.
+  JavaScript gebruikt deze gegevens om de projectkaarten te maken.
 */
 const projecten = [
     {
@@ -12,8 +13,13 @@ const projecten = [
         categorie: "school"
     },
     {
+        titel: "Rekenmachine",
+        beschrijving: "Ik heb in het eerste semester van mijn opleiding een eenvoudig rekenmachine in Java geprogrammeerd. Ik kreeg in het eerste semester de programmeertaal Java en heb met behulp van Java rekenmachine gemaakt in IntelliJ.",
+        categorie: "vrijetijd"
+    },
+    {
         titel: "Persoonlijke portfolio website",
-        beschrijving: "Ik bouw mijn eigen portfolio website met HTML, CSS en JavaScript voor de Frontend en later ook de backend. De website bevat onder andere mijn introductie, projecten, blog en contactpagina.",
+        beschrijving: "Ik bouw mijn eigen portfolio website met HTML, CSS en JavaScript. De website bevat mijn introductie, projecten, blog en contactpagina.",
         categorie: "school"
     }
 ];
@@ -22,9 +28,9 @@ const projecten = [
 /*
   2. HTML-ELEMENTEN OPHALEN
 
-  Met getElementById zoek ik de elementen uit mijn HTML op.
-  De container is de plek waar de projecten komen te staan.
-  Het status-element gebruik ik voor een melding aan de bezoeker.
+  Met getElementById zoek ik de onderdelen uit de HTML op.
+  De projectcontainer is de plek waar de kaarten verschijnen.
+  Het status-element toont hoeveel projecten er zichtbaar zijn.
 */
 const container = document.getElementById("project-container");
 const status = document.getElementById("status");
@@ -33,8 +39,8 @@ const status = document.getElementById("status");
 /*
   3. HUIDIGE PROJECTENLIJST
 
-  Deze variabele bewaart welke projecten op dit moment getoond
-  moeten worden. In het begin zijn dat alle projecten.
+  Deze variabele bewaart welke projecten op dit moment worden getoond.
+  In het begin bevat de lijst alle projecten.
 */
 let huidigeLijst = [...projecten];
 
@@ -42,116 +48,117 @@ let huidigeLijst = [...projecten];
 /*
   4. PROJECTEN WEERGEVEN
 
-  Deze functie maakt voor elk project HTML-elementen aan.
-  Daarna plaatst de functie die elementen in de projectcontainer.
+  Deze functie maakt voor elk project een kaart.
+  Eerst verwijder ik de oude kaarten.
+  Daarna maak ik nieuwe HTML-elementen met JavaScript.
 */
 function toonProjecten(lijst) {
-
-    // Verwijdert de eerder getoonde projectkaarten.
+    // Verwijdert de kaarten die al op de pagina staan.
     container.replaceChildren();
 
-    // Onthoudt welke lijst momenteel wordt weergegeven.
-    huidigeLijst = lijst;
+    // Bewaart de lijst die op dit moment wordt weergegeven.
+    huidigeLijst = [...lijst];
 
-    // Controleert of de lijst leeg is.
+    // Controleert of er projecten zijn om te tonen.
     if (lijst.length === 0) {
-        status.textContent = "Er zijn geen projecten in deze categorie.";
+        status.textContent = "Er zijn geen projecten gevonden.";
         return;
     }
 
-    // Loopt één voor één door alle projecten in de lijst.
-    lijst.forEach(function(projecten) {
-
-        // Maakt een artikel aan voor één projectkaart.
+    // Maakt voor elk project een nieuwe kaart.
+    lijst.forEach(function (project) {
+        // Maakt een artikel aan voor de projectkaart.
         const kaart = document.createElement("article");
         kaart.className = "project-box";
 
-        // Maakt een kop aan met de titel van het project.
+        // Maakt een kop met de titel van het project.
         const titel = document.createElement("h2");
-        titel.textContent = projecten.titel;
+        titel.textContent = project.titel;
 
-        // Maakt een alinea aan met de beschrijving.
+        // Maakt een alinea met de beschrijving.
         const beschrijving = document.createElement("p");
-        beschrijving.textContent = projecten.beschrijving;
+        beschrijving.textContent = project.beschrijving;
 
-        // Plaatst de titel en beschrijving in de projectkaart.
+        // Voegt de titel en beschrijving toe aan de kaart.
         kaart.appendChild(titel);
         kaart.appendChild(beschrijving);
 
-        // Plaatst de volledige projectkaart op de pagina.
+        // Voegt de kaart toe aan de projectcontainer.
         container.appendChild(kaart);
     });
 
-    // Laat zien hoeveel projecten er worden weergegeven.
-    status.textContent = "Aantal projecten: " + lijst.length;
+    // Geeft aan hoeveel projecten zichtbaar zijn.
+    status.textContent = "Aantal getoonde projecten: " + lijst.length;
 }
 
 
 /*
-  5. FILTEREN OP SCHOOLPROJECTEN
+  5. PROJECTEN FILTEREN
 
-  Wanneer de bezoeker op de schoolknop klikt, selecteert
-  filter() alleen projecten waarvan de categorie 'school' is.
+  Deze functie zoekt projecten met de opgegeven categorie.
+  Bijvoorbeeld: alleen projecten met categorie 'school'.
 */
-document.getElementById("knop-school").addEventListener("click", function() {
-
-    const schoolProjecten = projecten.filter(function(projecten) {
-        return projecten.categorie === "school";
+function filterProjecten(categorie) {
+    const gefilterdeProjecten = projecten.filter(function (project) {
+        return project.categorie === categorie;
     });
 
-    toonProjecten(schoolProjecten);
-});
+    // Toont alleen de projecten die bij de categorie passen.
+    toonProjecten(gefilterdeProjecten);
+}
 
 
 /*
-  6. FILTEREN OP VRIJETIJDPROJECTEN
+  6. ALLE PROJECTEN TONEN
 
-  Wanneer de bezoeker op de vrijetijdknop klikt, blijven alleen
-  projecten met de categorie 'vrijetijd' over.
+  Deze functie toont opnieuw de volledige projectenlijst.
 */
-document.getElementById("knop-vrijetijd").addEventListener("click", function() {
-
-    const vrijetijdProjecten = projecten.filter(function(project) {
-        return projecten.categorie === "vrijetijd";
-    });
-
-    toonProjecten(vrijetijdProjecten);
-});
+function toonAlleProjecten() {
+    toonProjecten(projecten);
+}
 
 
 /*
-  7. ALLE PROJECTEN WEERGEVEN
+  7. PROJECTEN SORTEREN
 
-  De knop zet de volledige projectenlijst opnieuw op de pagina.
+  Deze functie sorteert de huidige lijst alfabetisch op titel.
+  Door een kopie te maken, blijft de oorspronkelijke array intact.
 */
-document.getElementById("knop-alle").addEventListener("click", function() {
-
-    toonProjecten([...projecten]);
-});
-
-
-/*
-  8. PROJECTEN SORTEREN OP TITEL
-
-  Sorteert de huidige lijst alfabetisch op titel.
-  [...huidigeLijst] maakt eerst een kopie, zodat de oorspronkelijke
-  array met alle projecten niet rechtstreeks wordt aangepast.
-*/
-document.getElementById("knop-sorteer").addEventListener("click", function() {
-
-    const gesorteerdeProjecten = [...huidigeLijst].sort(function(a, b) {
+function sorteerProjecten() {
+    const gesorteerdeProjecten = [...huidigeLijst].sort(function (a, b) {
         return a.titel.localeCompare(b.titel, "nl");
     });
 
     toonProjecten(gesorteerdeProjecten);
+}
+
+
+/*
+  8. KNOPPEN KOPPELEN AAN FUNCTIES
+
+  addEventListener zorgt ervoor dat de juiste functie
+  wordt uitgevoerd wanneer de bezoeker op een knop klikt.
+*/
+document.getElementById("knop-alle").addEventListener("click", function () {
+    toonAlleProjecten();
+});
+
+document.getElementById("knop-school").addEventListener("click", function () {
+    filterProjecten("school");
+});
+
+document.getElementById("knop-vrijetijd").addEventListener("click", function () {
+    filterProjecten("vrijetijd");
+});
+
+document.getElementById("knop-sorteertitel").addEventListener("click", function () {
+    sorteerProjecten();
 });
 
 
 /*
-  9. STARTWEERGAVE
+  9. EERSTE WEERGAVE
 
-  Wanneer de pagina wordt geopend, toont de website direct
-  alle projecten, zonder dat de bezoeker eerst een knop hoeft
-  in te drukken.
+  Wanneer de pagina wordt geopend, verschijnen alle projecten direct.
 */
-toonProjecten(projecten);
+toonAlleProjecten();

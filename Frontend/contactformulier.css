@@ -79,6 +79,20 @@ main {
     color: #1e3a8a;
 }
 
+
+.formulier-controle small {
+    display: none;
+    color: red;
+}
+
+.formulier-controle.error small {
+    display: block;
+}
+
+.formulier-controle.success small {
+    display: none;
+}
+
 label {
     display: block;
     margin-top: 1rem;

@@ -59,7 +59,10 @@ main {
 
 
 
-
+.filter-knoppen button {
+     cursor: pointer; 
+    
+}
 
 .voettekst{
     display: flex;
