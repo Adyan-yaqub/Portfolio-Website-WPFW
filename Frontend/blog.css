@@ -27,7 +27,7 @@ header {
 }
 
 
- .Navigatie {
+.Navigatie {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -54,6 +54,28 @@ a:focus-visible {
 main {
     flex: 1;
 
+}
+
+.blog-post{
+    padding: 5rem;
+
+}
+
+.blog-post-data{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-block: 2.5rem;
+}
+
+.blog-post-titel{
+    font-size: clamp(3rem, 5vw, 6rem);
+}
+
+#blog-foto1{
+    width: 150px;
+    height: 150px;
 }
 
 
