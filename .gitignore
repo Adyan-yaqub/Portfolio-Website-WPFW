@@ -1,0 +1,13 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# .NET buildbestanden
+bin/
+obj/
+
+# Tijdelijke bestanden
+*.user
+*.suo
+*.cache
+*.vsidx
