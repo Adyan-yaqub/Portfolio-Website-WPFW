@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,24 +86,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BlogpostController.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\BlogpostController.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\BlogpostController.cs",
               "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\BlogpostController.cs",
               "RelativeToolTip": "PortfolioApi\\Controllers\\BlogpostController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwEMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T23:53:50.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProjectController.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectController.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ProjectController.cs",
@@ -111,12 +127,11 @@
               "RelativeToolTip": "PortfolioApi\\Controllers\\ProjectController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:52:31.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:52:31.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BlogpostService.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Services\\BlogpostService.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Services\\BlogpostService.cs",
@@ -124,8 +139,7 @@
               "RelativeToolTip": "PortfolioApi\\Services\\BlogpostService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:49:20.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:49:20.821Z"
             },
             {
               "$type": "Document",
@@ -137,8 +151,7 @@
               "RelativeToolTip": "PortfolioApi\\Services\\ProjectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:48:34.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:48:34.992Z"
             },
             {
               "$type": "Document",
@@ -150,8 +163,7 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:45:30.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:45:30.513Z"
             },
             {
               "$type": "Document",
@@ -163,12 +175,11 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:45:04.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:45:04.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Program.cs",
@@ -180,6 +191,10 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BlogpostCreateDto.cs",
@@ -189,8 +204,7 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:44:36.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:44:36.988Z"
             },
             {
               "$type": "Document",
@@ -202,8 +216,7 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:43:44.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:43:44.521Z"
             },
             {
               "$type": "Document",
@@ -215,25 +228,19 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:43:07.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:43:07.89Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "PortfolioApi",
+              "Title": "PortfolioApi.csproj",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\PortfolioApi.csproj",
               "RelativeDocumentMoniker": "PortfolioApi\\PortfolioApi.csproj",
               "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\PortfolioApi.csproj",
               "RelativeToolTip": "PortfolioApi\\PortfolioApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-31T23:34:49.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2026-10-31T23:34:49.015Z"
             },
             {
               "$type": "Document",
@@ -245,8 +252,7 @@
               "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:42:27.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:42:27.939Z"
             },
             {
               "$type": "Document",
@@ -258,8 +264,7 @@
               "RelativeToolTip": "PortfolioApi\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:20:40.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:20:40.507Z"
             },
             {
               "$type": "Document",
@@ -271,8 +276,7 @@
               "RelativeToolTip": "PortfolioApi\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-31T23:20:33.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:20:33.227Z"
             },
             {
               "$type": "Document",
@@ -284,8 +288,7 @@
               "RelativeToolTip": "PortfolioApi\\PortfolioApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-10-31T23:23:16.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:23:16.537Z"
             },
             {
               "$type": "Document",
@@ -297,8 +300,7 @@
               "RelativeToolTip": "PortfolioApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-31T23:20:26.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T23:20:26.863Z"
             },
             {
               "$type": "Document",
@@ -310,8 +312,7 @@
               "RelativeToolTip": "PortfolioApi\\Database\\PortfolioDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T14:33:27.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T14:33:27.093Z"
             },
             {
               "$type": "Document",
@@ -323,8 +324,7 @@
               "RelativeToolTip": "PortfolioApi\\Models\\Blogpost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T14:28:36.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T14:28:36.492Z"
             },
             {
               "$type": "Document",
@@ -336,8 +336,7 @@
               "RelativeToolTip": "PortfolioApi\\Models\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T14:22:46.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T14:22:46.413Z"
             }
           ]
         }
