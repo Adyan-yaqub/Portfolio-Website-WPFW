@@ -15,12 +15,15 @@ public class BlogpostController : ControllerBase
         _service = service;
     }
 
+    // GET: alle blogposts ophalen
     [HttpGet]
     public async Task<ActionResult<List<BlogpostDto>>> GetAll()
     {
-        return Ok(await _service.GetAllAsync());
+        var blogposts = await _service.GetAllAsync();
+        return Ok(blogposts);
     }
 
+    // GET: één blogpost ophalen via ID
     [HttpGet("{id}")]
     public async Task<ActionResult<BlogpostDto>> GetById(int id)
     {
@@ -32,6 +35,7 @@ public class BlogpostController : ControllerBase
         return Ok(blogpost);
     }
 
+    // POST: een nieuwe blogpost toevoegen
     [HttpPost]
     public async Task<ActionResult<BlogpostDto>> Create(BlogpostCreateDto dto)
     {
@@ -44,6 +48,7 @@ public class BlogpostController : ControllerBase
         );
     }
 
+    // PUT: een bestaande blogpost aanpassen
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, BlogpostUpdateDto dto)
     {
@@ -55,6 +60,7 @@ public class BlogpostController : ControllerBase
         return NoContent();
     }
 
+    // DELETE: een blogpost verwijderen
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {

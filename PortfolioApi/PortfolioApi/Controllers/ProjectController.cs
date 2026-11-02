@@ -15,12 +15,15 @@ public class ProjectController : ControllerBase
         _service = service;
     }
 
+    // GET: alle projecten ophalen
     [HttpGet]
     public async Task<ActionResult<List<ProjectDto>>> GetAll()
     {
-        return Ok(await _service.GetAllAsync());
+        var projects = await _service.GetAllAsync();
+        return Ok(projects);
     }
 
+    // GET: één project ophalen via ID
     [HttpGet("{id}")]
     public async Task<ActionResult<ProjectDto>> GetById(int id)
     {
@@ -32,6 +35,7 @@ public class ProjectController : ControllerBase
         return Ok(project);
     }
 
+    // POST: een nieuw project toevoegen
     [HttpPost]
     public async Task<ActionResult<ProjectDto>> Create(ProjectCreateDto dto)
     {
@@ -44,6 +48,7 @@ public class ProjectController : ControllerBase
         );
     }
 
+    // PUT: een bestaand project aanpassen
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, ProjectUpdateDto dto)
     {
@@ -55,6 +60,7 @@ public class ProjectController : ControllerBase
         return NoContent();
     }
 
+    // DELETE: een project verwijderen
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {

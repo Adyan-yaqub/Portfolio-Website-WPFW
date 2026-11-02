@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortfolioApi.Database;
+using PortfolioApi.Data;
 using PortfolioApi.DTOs;
 using PortfolioApi.Models;
 

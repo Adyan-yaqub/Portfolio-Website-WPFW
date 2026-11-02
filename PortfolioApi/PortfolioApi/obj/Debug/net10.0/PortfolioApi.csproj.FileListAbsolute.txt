@@ -158,7 +158,6 @@ C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debu
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\PortfolioApi.pdb
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\PortfolioApi.genruntimeconfig.cache
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\ref\PortfolioApi.dll
-C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
@@ -170,3 +169,4 @@ C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debu
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

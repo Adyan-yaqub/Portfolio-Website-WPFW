@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PortfolioApi.Database;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PortfolioApi.Data;
 using PortfolioApi.DTOs;
 using PortfolioApi.Models;
 
@@ -100,5 +101,10 @@ public class ProjectService
         await _context.SaveChangesAsync();
 
         return true;
+    }
+
+    internal static ActionResult<List<ProjectDto>> GetAll()
+    {
+        throw new NotImplementedException();
     }
 }
