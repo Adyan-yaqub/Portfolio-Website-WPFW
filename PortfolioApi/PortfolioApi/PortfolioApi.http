@@ -1,6 +1,9 @@
-@PortfolioApi_HostAddress = http://localhost:5247
+ @PortfolioApi_HostAddress = https://localhost:7293
 
-GET {{PortfolioApi_HostAddress}}/project/4
+### Alle projecten ophalen
+GET {{PortfolioApi_HostAddress}}/api/Project
 Accept: application/json
 
-###
+### Alle blogposts ophalen
+GET {{PortfolioApi_HostAddress}}/api/Blogpost
+Accept: application/json

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\portfolioapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\portfolioapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Program.cs",
@@ -32,19 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T14:38:08.808Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PortfolioApi.http",
-              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\PortfolioApi.http",
-              "RelativeDocumentMoniker": "PortfolioApi\\PortfolioApi.http",
-              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\PortfolioApi.http",
-              "RelativeToolTip": "PortfolioApi\\PortfolioApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-11-02T23:36:59.153Z",
               "EditorCaption": ""
             },
             {
