@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\blogpostupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\blogpostupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\blogpostcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\blogpostcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\projectcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\projectcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\projectupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\projectupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\data\\portfoliodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\data\\portfoliodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\services\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|c:\\users\\yaqub\\desktop\\portfolio website wpfw\\portfolioapi\\portfolioapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +70,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Program.cs",
               "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeToolTip": "PortfolioApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T14:38:08.808Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -45,6 +100,187 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogpostCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostCreateDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\BlogpostCreateDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostCreateDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:50:16.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogpostDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\BlogpostDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:50:22.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogpostUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostUpdateDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\BlogpostUpdateDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\BlogpostUpdateDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\BlogpostUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:50:26.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectCreateDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\ProjectCreateDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectCreateDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:52:23.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectUpdateDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\ProjectUpdateDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectUpdateDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:52:20.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Services\\ProjectService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ProjectService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwFMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T20:33:16.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\DTOs\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "PortfolioApi\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:55:20.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Models\\Project.cs",
+              "RelativeToolTip": "PortfolioApi\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:10:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Blogpost.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Models\\Blogpost.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Blogpost.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Models\\Blogpost.cs",
+              "RelativeToolTip": "PortfolioApi\\Models\\Blogpost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:33:12.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:10:46.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogpostController.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\BlogpostController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\BlogpostController.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Controllers\\BlogpostController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\BlogpostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T20:31:23.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PortfolioDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Data\\PortfolioDbContext.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Data\\PortfolioDbContext.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Data\\PortfolioDbContext.cs",
+              "RelativeToolTip": "PortfolioApi\\Data\\PortfolioDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:29:51.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlogpostService.cs",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Services\\BlogpostService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\BlogpostService.cs",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\Services\\BlogpostService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\BlogpostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:11:55.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\README.md",
+              "RelativeDocumentMoniker": "PortfolioApi\\README.md",
+              "ToolTip": "C:\\Users\\yaqub\\Desktop\\Portfolio Website WPFW\\PortfolioApi\\PortfolioApi\\README.md",
+              "RelativeToolTip": "PortfolioApi\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-06T20:36:37.319Z"
             }
           ]
         }
