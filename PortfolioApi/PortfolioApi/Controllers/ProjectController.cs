@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PortfolioApi.DTOs;
 using PortfolioApi.Services;
 
@@ -16,6 +17,7 @@ public class ProjectController : ControllerBase
     }
 
     // GET: alle projecten ophalen
+    [AllowAnonymous]
     [HttpGet]
     public async Task<ActionResult<List<ProjectDto>>> GetAll()
     {
@@ -24,6 +26,7 @@ public class ProjectController : ControllerBase
     }
 
     // GET: één project ophalen via ID
+    [AllowAnonymous]
     [HttpGet("{id}")]
     public async Task<ActionResult<ProjectDto>> GetById(int id)
     {
@@ -36,6 +39,7 @@ public class ProjectController : ControllerBase
     }
 
     // POST: een nieuw project toevoegen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpPost]
     public async Task<ActionResult<ProjectDto>> Create(ProjectCreateDto dto)
     {
@@ -49,6 +53,7 @@ public class ProjectController : ControllerBase
     }
 
     // PUT: een bestaand project aanpassen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, ProjectUpdateDto dto)
     {
@@ -61,6 +66,7 @@ public class ProjectController : ControllerBase
     }
 
     // DELETE: een project verwijderen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {

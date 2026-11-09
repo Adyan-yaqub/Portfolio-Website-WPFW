@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PortfolioApi.DTOs;
 using PortfolioApi.Services;
 
@@ -16,6 +17,7 @@ public class BlogpostController : ControllerBase
     }
 
     // GET: alle blogposts ophalen
+    [AllowAnonymous]
     [HttpGet]
     public async Task<ActionResult<List<BlogpostDto>>> GetAll()
     {
@@ -24,6 +26,7 @@ public class BlogpostController : ControllerBase
     }
 
     // GET: één blogpost ophalen via ID
+    [AllowAnonymous]
     [HttpGet("{id}")]
     public async Task<ActionResult<BlogpostDto>> GetById(int id)
     {
@@ -36,6 +39,7 @@ public class BlogpostController : ControllerBase
     }
 
     // POST: een nieuwe blogpost toevoegen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpPost]
     public async Task<ActionResult<BlogpostDto>> Create(BlogpostCreateDto dto)
     {
@@ -49,6 +53,7 @@ public class BlogpostController : ControllerBase
     }
 
     // PUT: een bestaande blogpost aanpassen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, BlogpostUpdateDto dto)
     {
@@ -61,6 +66,7 @@ public class BlogpostController : ControllerBase
     }
 
     // DELETE: een blogpost verwijderen
+    [Authorize(Policy = "CanEditPortfolio")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
