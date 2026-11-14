@@ -2,11 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using PortfolioApi.DTOs;
 using PortfolioApi.Services;
+using System.Security.Cryptography;
 
 namespace PortfolioApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+
+[Authorize]
 public class ProjectController : ControllerBase
 {
     private readonly ProjectService _service;

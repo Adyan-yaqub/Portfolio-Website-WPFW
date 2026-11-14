@@ -7,6 +7,8 @@ namespace PortfolioApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+
+[Authorize]
 public class BlogpostController : ControllerBase
 {
     private readonly BlogpostService _service;

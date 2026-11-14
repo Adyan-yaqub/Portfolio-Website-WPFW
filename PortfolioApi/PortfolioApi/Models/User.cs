@@ -4,5 +4,5 @@ namespace PortfolioApi.Models;
 
 public class User : IdentityUser
 {
-    public int StudentNumber { get; set; }
+   
 }

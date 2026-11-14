@@ -63,7 +63,6 @@ C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debu
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\System.Memory.Data.dll
-C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -154,7 +153,6 @@ C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debu
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -170,3 +168,17 @@ C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debu
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\PortfolioApi.pdb
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\PortfolioApi.genruntimeconfig.cache
 C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\ref\PortfolioApi.dll
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\PortfolioApi.staticwebassets.runtime.json
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\bin\Debug\net10.0\PortfolioApi.runtimeconfig.dev.json
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\HotReload\Microsoft.NET.Sdk.BlazorWeb.HotReload.lib.module.js
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\HotReload\Microsoft.NET.Sdk.BlazorWeb.HotReload.BrowserTools.js
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\HotReload\Microsoft.NET.Sdk.BlazorWeb.HotReload.BrowserTools.Config.js
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\HotReload\browser-tools-key.public.json
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\HotReload\browser-tools-key.private.json
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\jsmodules\jsmodules.build.manifest.json
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\scopedcss\scopedcss.cache
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\compressed\zuwbc56b3x-{0}-tchfgznwy8-tchfgznwy8.gz
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\compressed\3s3tyymkuv-{0}-oer4ceacw9-oer4ceacw9.gz
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\compressed\lpysnn51q0-{0}-v1vy2to33n-v1vy2to33n.gz
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\compressed\38doytoun6-{0}-ysew0n4kjn-ysew0n4kjn.gz
+C:\Users\yaqub\Desktop\Portfolio Website WPFW\PortfolioApi\PortfolioApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
