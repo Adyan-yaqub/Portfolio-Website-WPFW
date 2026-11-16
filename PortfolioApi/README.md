@@ -2,7 +2,7 @@ Dit project bevat een ASP.NET Core Web API voor mijn persoonlijke portfolio. De 
 
 De backend maakt gebruik van:
 
-ASP.NET Core Web API (.NET 10)
+ASP.NET Core Web API (.NET 11)
 
 Entity Framework Core
 
